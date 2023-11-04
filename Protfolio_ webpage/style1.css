@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Righteous&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+.Sidebar{
+    background-color: rgb(156, 174, 173);
+    /*width: 12vw;*/
+    font-family: 'Righteous', sans-serif;
+height: 100vh;
+}
+.Sidebar nav{
+    padding:34px;
+}
+.Sidebar nav li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    padding:20px;
+}
+.Sidebar nav li a {
+    text-decoration: none;
+    color:rgb(16, 12, 12);
+}
+
+.main{
+    /*background-color:rgb(241, 184, 78);*/
+    width:90vw;
+}
+.container{
+    display:flex ;
+}
+.infocontainer{
+   /* background-color: red;*/
+    height:95vh;
+    width:80vw;
+    margin:29px;
+    display:flex;
+    justify-content: space-around;
+}
+.devinfo{
+
+    display:flex;
+    /*justify-content: center;*/
+    flex-direction:column;
+    margin-left:87px;
+    margin-top: 30px;
+   
+}
+.hello{
+    font-size:59px;
+}
+.name{
+    font-size: 44px;
+    font-weight:bold;
+    font-family: 'Kanit', sans-serif;
+}
+.about{
+    font-size:23px;
+}
+.moreabout{
+    font-size:19px;
+    margin-top:20px;
+    font-family: 'Kanit', sans-serif;
+}
+.button{
+    margin-top:15px ;
+}
+.button k{
+    margin-top:15px ;
+    width:123px;
+}
+.button button{
+    padding: 3px 14px;
+    border-radius:22px;
+    color:white;
+    background-color:blue;
+    font-weight:lighter;
+    font-size:17px;
+    margin:4px 3px;
+    cursor: pointer;
+}
+.button button:hover{
+    background-color:aquamarine;
+    color:blue;
+}
+.devpic img{
+    height:65vh;
+}
+.contactform {
+    font-family: 'Righteous', sans-serif;
+    margin:33px;
+}
+.contactform h1{
+    /*padding: 0 33px;
+    padding-top:127px;*/
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+
+}
+.contactform form div{
+    padding:10px 0;
+    display:flex;
+    flex-direction:column;
+
+}
+.contactform form div input{
+    width:22vw;
+    border-radius: 5px;
+    margin:6px 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 12px;
+    color:rgb(179, 239, 16);
+    margin: 0 5px;
+    padding:3px 0 0 0;
+}
+#form-check{
+    flex-direction:row;  
+}
+/*
+#form-check-input{
+    width: 2px;
+}*/
+#isclient{
+    width: 11px;
+    padding:9px;
+    margin:2px 7px;
+}
+.blogItem{
+ margin:20px;
+ font-family: 'Kanit', sans-serif;
+}
+.blogContainer  h1{
+    margin:23px;
+    font-family: 'Righteous', sans-serif;
+   }
+   .blogItem p{
+    margin:20px;
+   }
+   .intro h2{
+    font-family: 'Righteous', sans-serif;
+    margin:12px;
+   }
+   .intro p{
+    font-family: 'Kanit', sans-serif;
+    margin:12px;
+   }
+   .skillContainer{
+    padding:12px;
+   }
+   .skillItem{
+    display:flex;
+    align-items:center;
+    font-family: 'Righteous', sans-serif;
+    font-weight: 900;
+   }
+   .skill{
+    width:188px;
+    height:5px;
+    background-color: red;
+    border:2px solid black;
+   }
+   .hundered{
+    width:265px;
+    background-color: aqua;
+   }
+   .fifty{
+    width:125px;
+    background-color:palegreen;
+   }
+   .t5{
+    width:75px;
+    background-color:fuchsia;
+   }
+   /*.SidebarGo{
+    transform:translate(-443px,0px);
+    position:absolute;
+   }*/
+   @media (max-width: 1200px) {
+   *{
+       background-color:rgb(230, 146, 146);
+    
+   }
+   .devpic{
+       display:none;
+   }
+   .Sidebar{
+    transform:translate(-443px,0px);
+    position:absolute;
+   }
+   .intro,.blogcontainer,.contactform{
+    margin:8px;
+   }
+}
+.hamburger{
+    position:absolute;
+    cursor :pointer;
+    top:10px;
+    left:10px;
+}
+.cross{
+    margin-left:151px;
+}
